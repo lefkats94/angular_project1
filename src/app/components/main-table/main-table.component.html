@@ -1,0 +1,8 @@
+<div class="container rounded">
+    <div class="container inline">
+        <button *ngFor="let number of all_numbers; index as i;" (click)="onUserSelect(number)">{{number}}</button>
+    </div>
+</div>
+{{selected_numbers}}
+
+
